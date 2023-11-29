@@ -1,0 +1,49 @@
+.search-bar {
+    font-size: 16px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 17px;
+    display: block;
+}
+
+.manga-area {
+    height: 270;
+    width: 165px;
+    border: 2.3px solid #0584c900;
+    text-align: center;
+    border-radius: 2.42px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.cover-container {
+    height: 237px;
+    width: 160px;
+    text-align: center;
+    display: inline-block;
+}
+
+.cover-container img {
+    margin-top: 4px;
+    width: 152px;
+    height: 228px;
+    display: inline-block;
+}
+
+.manga-title-container {
+    vertical-align: bottom;
+    text-align: left;
+    height: 16px;
+    margin: 3px;
+    margin-left: 2px;
+    margin-top: 8px;
+}
+
+.manga-title-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-text-stroke: 1.16px black;
+    -webkit-text-fill-color: white;
+    margin: 3px;
+}
