@@ -6,6 +6,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
         <link rel="stylesheet" href="style.css">
         <script src="script.js" defer></script>
     </head>
@@ -13,30 +15,31 @@
     <body background="thumbnails/ff.png">
         
             <div class="sidebar" onmouseover="expandSidebar()" onmouseout="collapseSidebar()">
-                <input class="search-bar" type="text" placeholder="Search">
-                <a href="#home">item</a>
-                <a href="#service">item</a>
-                <a href="#about">item</a>
-                <a href="#contact">item</a>    
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-house-chimney-window"></i>
+                <i class="fa-solid fa-book"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-compass"></i>                <i class="fa-solid fa-gear"></i>
             </div>
-                <div class="content">
-                    <div class="manga-area">
-                        <div class="cover-container">
-                            <img class="manga-cover" src="thumbnails/Kagurabachi.jpg">
-                        </div>
-                        <div class="manga-title-container">
-                            <p>Kagurabachi</p>
-                        </div>      
-                    </div>   
-        
-                    <div class="manga-area">
-                        <div class="cover-container">
-                            <img class="manga-cover" src="thumbnails/Sakamoto-Days.jpg">
-                        </div>
-                        <div class="manga-title-container">
-                            <p>Sakamoto-Days</p>
-                        </div>      
+            
+            <div class="main-content">
+                <div class="manga-area">
+                    <div class="cover-container">
+                        <img class="manga-cover" src="thumbnails/Kagurabachi.jpg">
                     </div>
+                    <div class="manga-title-container">
+                        <p>Kagurabachi</p>
+                    </div>      
+                </div>   
+        
+                <div class="manga-area">
+                    <div class="cover-container">
+                        <img class="manga-cover" src="thumbnails/Sakamoto-Days.jpg">
+                    </div>
+                    <div class="manga-title-container">
+                        <p>Sakamoto-Days</p>
+                    </div>      
+                </div>
             </div>
             
     </body>
