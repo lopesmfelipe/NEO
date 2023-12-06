@@ -1,32 +1,37 @@
 .mangas-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 1px;
   margin-top: 60px;
 }
 
 .manga-area {
-  height: 270;
-  width: 165px;
-  border: 2.3px solid #0584c900;
+  width: 170px;
+  height: 260px;
+  border: 2.3px solid transparent;
   text-align: center;
-  border-radius: 2.42px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
+  border-radius: 2.45px;
+  transition: border-color 0.5s ease;
+}
+
+.manga-area:hover {
+  border-color: rgb(41, 221, 0);
 }
 
 .cover-container {
-  height: 237px;
-  width: 160px;
+  height: 235px;
   text-align: center;
   display: inline-block;
+  padding-top: 5px;
 }
 
 .cover-container img {
   margin-top: 4px;
-  width: 152px;
-  height: 228px;
+  width: 145px;
+  height: 230px;
   display: inline-block;
 }
 

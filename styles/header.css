@@ -1,21 +1,39 @@
 .header {
   height: 47px;
-  background-color: aquamarine;
-  color: white;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   justify-content: end;
 }
 
+.header p {
+  color: rgb(0, 238, 28);
+}
+
 .left-section {
-  background-color: pink;
+  background-color: rgba(55, 55, 55, 0.3);
   width: 130px;
 }
 
 .right-section {
-  background-color: lightseagreen;
+  background-color: rgba(55, 55, 55, 0.3);
   flex:1;
-  padding-left: 67%;
+  padding-left: 77%;
+}
+
+
+
+.second-header {
+    height: 300px;
+    color: white;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.top-video {
+  width: 100%;
+  height: 150px;
 }
