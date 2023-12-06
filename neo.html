@@ -11,83 +11,137 @@
             href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/manga.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+
         <script src="script.js" defer></script>
     </head>
 
-    <body background="thumbnails/ff.png">
-            <nav class="sidebar" onmouseover="expandSidebar()" onmouseout="collapseSidebar()">
-                <ul class="sidebar-side">
+    <body>
 
+        
+            <div class="header">
+                <div class="left-section">
+                    <p>Library</p>
+                </div>
+                <div class="right-section">
+                    <p>Right </p>
+                </div>
+            </div>
+    
+    
+    
+    
+        <!--     
+        <nav class="sidebar" onmouseover="expandSidebar()" onmouseout="collapseSidebar()">
+                <ul class="sidebar-side">
+    
                     <li class="logo">
                         <a href="#" class="side-link">
                             <i class="fa-solid fa-microchip"></i>
-                            <span class="link-text">NEO</span>
                         </a>
                     </li>
-
+    
                     <li class="side-item">
                         <a href="#" class="side-link">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             <span class="link-text logo-text">Search</span>
                         </a>
                     </li>
-
+    
                     <li class="side-item">
                         <a href="#" class="side-link">
                             <i class="fa-solid fa-book"></i>
                             <span class="link-text">Library</span>
                         </a>
                     </li>
-
+    
                     <li class="side-item">
                         <a href="#" class="side-link">
                             <i class="fa-solid fa-circle-exclamation"></i>
                             <span class="link-text">Updates</span>
                         </a>
                     </li>
+    
+                        <li class="side-item">
+                            <a href="#" class="side-link">
+                                 <i class="fa-solid fa-compass"></i>
+                                 <span class="link-text">Browse</span>
+                            </a>
+                        </li>
+                        <li class="side-item">
+                            <a href="#" class="side-link">
+                                <i class="fa-solid fa-gear"></i>
+                                <span class="link-text">Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>    
+            -->
+    
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="background/Neo-Background - reduced.mp4" type="video/mp4">
+            </video>
+                
+                    <div class="mangas-grid">
+                        
+                    
 
-                    <li class="side-item">
-                        <a href="#" class="side-link">
-                             <i class="fa-solid fa-compass"></i>
-                             <span class="link-text">Browse</span>
-                        </a>
-                    </li>
-                    <li class="side-item">
-                        <a href="#" class="side-link">
-                            <i class="fa-solid fa-gear"></i>
-                            <span class="link-text">Settings</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            
-
-
-
-
-
-
-
-            <div class="main-content">
-                <div class="manga-area">
-                    <div class="cover-container">
-                        <img class="manga-cover" src="thumbnails/Kagurabachi.jpg">
+                            <div class="manga-area">
+                            <div class="cover-container">
+                                <img class="manga-cover" src="thumbnails/Kagurabachi.jpg">
+                            </div>
+                            <div class="manga-title-container">
+                                <p>Kagurabachi</p>
+                            </div>      
+                        </div>   
+                
+                        <div class="manga-area">
+                            <div class="cover-container">
+                                <img class="manga-cover" src="thumbnails/Sakamoto-Days.jpg">
+                            </div>
+                            <div class="manga-title-container">
+                                <p>Sakamoto Days</p>
+                            </div>      
+                        </div>
+    
+                        <div class="manga-area">
+                            <div class="cover-container">
+                                <img class="manga-cover" src="thumbnails/Onepunch-Man.jpg">
+                            </div>
+                            <div class="manga-title-container">
+                                <p>One-Punch Man</p>
+                            </div>      
+                        </div>
+    
+                        <div class="manga-area">
+                            <div class="cover-container">
+                                <img class="manga-cover" src="thumbnails/Blue-Lock.jpg">
+                            </div>
+                            <div class="manga-title-container">
+                                <p>Blue Lock</p>
+                            </div>      
+                        </div>
+    
+                        <div class="manga-area">
+                            <div class="cover-container">
+                                <img class="manga-cover" src="thumbnails/Jujutsu-Kaisen.jpg">
+                            </div>
+                            <div class="manga-title-container">
+                                <p>Jujutsu Kaisen</p>
+                            </div>      
+                        </div>
+    
+                        <div class="manga-area">
+                            <div class="cover-container">
+                                <img class="manga-cover" src="thumbnails/Sunken-Rock.jpg">
+                            </div>
+                            <div class="manga-title-container">
+                                <p>Sun-ken Rock</p>
+                        </div>      
                     </div>
-                    <div class="manga-title-container">
-                        <p>Kagurabachi</p>
-                    </div>      
-                </div>   
-        
-                <div class="manga-area">
-                    <div class="cover-container">
-                        <img class="manga-cover" src="thumbnails/Sakamoto-Days.jpg">
-                    </div>
-                    <div class="manga-title-container">
-                        <p>Sakamoto-Days</p>
-                    </div>      
-                </div>
-            </div>
-            
+                </div>  
     </body>
 </html>

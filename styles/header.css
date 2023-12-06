@@ -1,0 +1,21 @@
+.header {
+  height: 47px;
+  background-color: aquamarine;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: end;
+}
+
+.left-section {
+  background-color: pink;
+  width: 130px;
+}
+
+.right-section {
+  background-color: lightseagreen;
+  flex:1;
+  padding-left: 67%;
+}
