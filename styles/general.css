@@ -12,7 +12,7 @@ body {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgb(26, 26, 26);
 }
 
 body::-webkit-scrollbar {
