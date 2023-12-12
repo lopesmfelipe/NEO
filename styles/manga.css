@@ -18,7 +18,7 @@
 }
 
 .manga-area:hover {
-  border-color: rgb(41, 221, 0);
+  border-color: var(--main-color);
 }
 
 .cover-container {
