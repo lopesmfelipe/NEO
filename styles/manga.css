@@ -6,6 +6,24 @@
   margin-top: 60px;
 }
 
+@media (max-width: 750px) {
+  .mangas-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .mangas-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .mangas-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
 .manga-area {
   width: 170px;
   height: 260px;
@@ -49,5 +67,5 @@
   font-weight: bold;
   font-size: 15px;
   color: white;
-  margin: 3px;
+  margin: 3px 10px;
 }

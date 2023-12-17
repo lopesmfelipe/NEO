@@ -29,7 +29,7 @@
 
 .navbar-link span:hover {
   color: var(--main-color);
-  transition: 400ms;
+  transition: 200ms;
 }
 
 .navbar-link div {
