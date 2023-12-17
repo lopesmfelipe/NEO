@@ -21,6 +21,7 @@
   0 0 6rem var(--main-color),
   0 0 9.5rem var(--main-color);
   padding-top: 0px;
+  cursor: default;
 }
 
 .title-container {

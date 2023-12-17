@@ -1,11 +1,39 @@
 .navbar {
-  color: var(--main-color);
-  background-color: brown;
+  background-color: var(--background-main-color);
+  color: var(--lights-off);
   position: fixed;
   bottom: 0;
   left: 0;
   top: 0;
-  width: 50px;
+  width: 60px;
+  z-index: 1;
+}
+
+.navbar-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80px;
+  text-align: center;
+}
+
+.navbar-link:hover {
+  background-color: rgb(58, 57,  57);
+  cursor: pointer;
+}
+
+.navbar-link span {
+  padding-bottom: 5px;
+}
+
+.navbar-link span:hover {
+  color: var(--main-color);
+  transition: 400ms;
+}
+
+.navbar-link div {
+  font-size: 10px;
 }
 
 
